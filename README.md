@@ -66,4 +66,3 @@ wget https://packages.osrfoundation.org/ga... -O - | sudo apt-key add -
      sudo apt-get install gazebo9
      
 sudo gedit ~/.ignition/fuel/config.yaml
-
