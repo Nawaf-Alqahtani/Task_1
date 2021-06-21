@@ -56,13 +56,14 @@ source ~/.bashrc
  
 roslaunch robot_arm_pkg check_motors.launch
 
-and wrote these codes to emulate the Gazebo program
-![Task 1 Gazebo](https://user-images.githubusercontent.com/85695324/122711709-4b348980-d26b-11eb-8535-8dc4713e3fa7.jpg)
-sudo sh -c 'echo "deb http://packages.osrfoundation.org/gaz... `lsb_release -cs` main" ＞ /etc/apt/sources.list.d/gazebo-latest.list'
-wget https://packages.osrfoundation.org/ga... -O - | sudo apt-key add -
-
-     sudo apt-get update
-     
-     sudo apt-get install gazebo9
-     
-sudo gedit ~/.ignition/fuel/config.yaml
+and wrote these codes to simulate the arm in Gazebo program
+Add the "arduino_robot_arm" package to "src" folder 
+$ cd */catkin_ws/src 
+$ sudo apt install git 
+$ git clone https://github.com/smart-methods/arduino robot arm Install all the dependencies 
+$ cd ~/catkin_ws 
+$ rosdep ínstall --from-paths src --ignore-src -r -y 
+$ sudo apt-get install ros-melodic-moveit 
+$ sudo apt-get install ros-melodic-joint-state-publisher ros-melodic-joint-state-publisher-gui 
+$ sudo apt-get install ros-melodic-gazebo-ros-control joint-state-publisher 
+$ sudo apt-get install ros-melodic-ros-controllers ros-melodic-ros-control Compile the package $ catkin_make
