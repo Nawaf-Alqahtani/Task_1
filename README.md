@@ -2,7 +2,7 @@
 
 I downloaded VirtualBox, then I downloaded Ubuntu, then installed the ROS system, installed the robotic arm package, and wrote these commands to simulate the arm in RVIZ
 
-![Task 1 RVIZ](https://user-images.githubusercontent.com/85695324/122711575-0dcffc00-d26b-11eb-967b-e552222cd924.jpg)
+
 
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
  
