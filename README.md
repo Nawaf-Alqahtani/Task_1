@@ -60,7 +60,10 @@ and wrote these codes to emulate the Gazebo program
 ![Task 1 Gazebo](https://user-images.githubusercontent.com/85695324/122711709-4b348980-d26b-11eb-8535-8dc4713e3fa7.jpg)
 sudo sh -c 'echo "deb http://packages.osrfoundation.org/gaz... `lsb_release -cs` main" ＞ /etc/apt/sources.list.d/gazebo-latest.list'
 wget https://packages.osrfoundation.org/ga... -O - | sudo apt-key add -
+
      sudo apt-get update
+     
      sudo apt-get install gazebo9
+     
 sudo gedit ~/.ignition/fuel/config.yaml
 
