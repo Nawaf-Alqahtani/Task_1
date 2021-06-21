@@ -1,4 +1,4 @@
-# Task_1_Robot_Arm
+# Install and run the arm package on the ROS system
 
 I downloaded VirtualBox, then I downloaded Ubuntu, then installed the ROS system, installed the robotic arm package, and wrote these commands to simulate the arm in RVIZ
 
